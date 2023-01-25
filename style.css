@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+.wrapper{
+    width:80%;
+    margin:0 auto;
+    padding:1rem;
+    display:flex;
+    flex-flow:row nowrap;
+    background-color: orange;
+}
+p,[for="abtype"]{
+    margin-bottom: 0;
+    margin-top:2rem;
+}
+section{
+    flex-basis:57%;
+    margin-right:10%
+}
+aside{
+    flex-basis:33%;
+}
+fieldset{
+    border:2px solid black;
+    border-radius:10px;
+    margin-bottom:2rem;
+}
+legend{
+    font-weight: bold;
+    font-size:1.5rem;
+    margin-top:1.5rem;
+    margin-bottom:1rem;
+}
+label{
+    display:block;
+
+}
+textarea{
+    height:10rem;
+    padding:1rem;
+}
+select{
+    font-size:1rem;  
+}
+button{
+    font-size:1rem;
+    margin:2rem 0;
+    border:2px solid brown;
+    border-radius:10px;
+    background-color: rgb(0,0,0,0);
+    padding:0.5rem 1rem;
+}
+button:hover{
+    background-color: white;
+    cursor: pointer; 
+}
+input:not([type="radio"]):not([type="checkbox"]){
+    display: block;
+    margin-bottom:2rem;
+    width:20rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1rem;
+    padding:0 1rem;
+    border-radius:10px;
+}
